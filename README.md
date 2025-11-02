@@ -1,4 +1,7 @@
-# Machine Learning/Deep Learning Model Notes
+# Machine Learning/Deep Learning Model Notes  
+
+Machine Learning Cheat-Sheet  
+<img width="714" height="408" alt="image" src="https://github.com/user-attachments/assets/1fb278f1-de5d-449f-b482-2466a349e44b" />   
 
 ## <u>Supervised Learning</u>  
 
