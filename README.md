@@ -1,6 +1,6 @@
 # Machine Learning/Deep Learning Model Notes  
 
-[Machine Learning Cheat-Sheet](https://scikit-learn.org/stable/machine_learning_map.html)
+[Machine Learning Cheat-Sheet](https://scikit-learn.org/stable/machine_learning_map.html){:target="_blank"}
 
 ## <u>Supervised Learning</u>  
 
