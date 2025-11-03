@@ -18,7 +18,8 @@
       * 99.73% of all the values fall under +or- 3 Standard Deviations
  * Exponential Distribution
  * Beta Distribution
-* Discrete Probability Distributions - Probability Mass Functions (Binomial Distribution)
+
+Discrete Probability Distributions - Probability Mass Functions (Binomial Distribution)
 
 # Machine Learning/Deep Learning Model Notes  
 
