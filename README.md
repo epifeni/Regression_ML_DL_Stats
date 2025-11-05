@@ -1,4 +1,4 @@
-# Data Science Documentation for Regression and Time-Series Analysis
+# Data Science Documentation for Machine and Deep Learning
 
 # Probability Distributions
 ## Continuous Probability Distributions - Probability Density Functions
