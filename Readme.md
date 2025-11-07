@@ -154,6 +154,15 @@ Used when you already know the truth that you are testing for wher you already k
 * Type 2 Error (False Negative) - **Failing to Reject** reject a null hypothesis that should have been rejected
     * Null hypothesis was that there was no fire. So you fail to pull the fire alarm when there was actually a fire 
 
+## Student's T-Distribuiton
+Uses when the population Standard Deviation is not known
+* Determines if there is a significant difference between two sets of data
+* When due to variance and outliers, it's not enough just compare mean values
+* T-test also considers sample variances
+
+### Types of Student's T-Test
+* Tests the null hypothesis that hte populatin mean is equal to a specified value $\mu$ based on a sample mean $\bar{x}$
+* 
 
 
 
