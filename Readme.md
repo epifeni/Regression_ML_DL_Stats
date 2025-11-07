@@ -251,5 +251,40 @@ Machine learning process for unsupervised learning
 * **Anomaly Detectection** - Attempts to detect outliers in a dataset (i.e. fraudulent transactions on a credit card)
 * **Dimentionality Reduction** - Reduce the number of features in a dataset
 
+# Deep Learning
+
+## Perceptron Model
+<img width="929" height="296" alt="image" src="https://github.com/user-attachments/assets/1fcfa38d-deaf-408a-9066-881d7c1dd5d9" />
+1. if f(X) is a sum then, y = x1 + x2\
+
+2. There is no way that this model can work, so we can add in adjustable weights to multiply against the inputs of x\
+<img width="935" height="250" alt="image" src="https://github.com/user-attachments/assets/5427b94b-69d5-4854-8ce8-0cb7116f72c6" />
+Now y = x1w1 + x2w2\
+weight can be updated to affect the output y\
+
+3. In the case that the impt values are zero, we can add a bias term b to the input
+    * The way to think about the bias is that the multiplication of (x1 * w1) i.e. the input times its weights has to overcome the bias value in order to have an affect on the output of y
+<img width="946" height="278" alt="image" src="https://github.com/user-attachments/assets/cf78e8c9-81da-4e1a-8822-44f2084c1047" />
+Now y = (x1w1 + b) + (x2w2 + b)\
+
+4. Inputs can be expanded out all the way to n number of inputs\
+<img width="924" height="308" alt="image" src="https://github.com/user-attachments/assets/61c26984-e0f2-4781-a154-c5f26208f342" />
+
+5. This model can be expanded to have X be a **tensor** of information, where a tensor is an n-dimentional matrix\
+<img width="528" height="211" alt="image" src="https://github.com/user-attachments/assets/1c44b112-be48-40ae-b6b1-835bd21ddad1" />
+
+6. This equation can be simplified by adding up all the biases into one bias labeled B\
+<img width="907" height="307" alt="image" src="https://github.com/user-attachments/assets/6356480c-6ab5-429f-a97e-3f95cb8fdb3e" />
+
+ 
+
+
+
+
+
+
+
+
+
 
 
