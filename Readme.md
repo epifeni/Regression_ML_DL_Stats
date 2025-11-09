@@ -351,8 +351,24 @@ The learning process for a network
 * a=$\theta$(z)
 * This resulting a then feeds into the next layer (and so on)
 2. for each layer we are computing the z and a:
-  * z^{L} = w^l^a^L-1^+b^l^
-  * a^l = $\theta$(z^L^)
+  * z^L^ = w^L^a^L-1^+b^L^
+  * a^L = $\theta$(z^L^)
+3. Compute error vector<br/>
+<img width="848" height="310" alt="image" src="https://github.com/user-attachments/assets/69283111-81bb-4da3-9327-3673b459df73" /><br/>
+<img width="344" height="61" alt="image" src="https://github.com/user-attachments/assets/a724b912-e2b4-433b-860c-ea057b3da9ad" /><br/>
+4. Backpropogate the error
+<img width="862" height="314" alt="image" src="https://github.com/user-attachments/assets/041e5c94-20af-4978-99e8-751290153670" /><br/>
+<img width="849" height="320" alt="image" src="https://github.com/user-attachments/assets/e640dc35-861d-4c49-b03a-23c3d5a59a6c" /><br/>
+* Apply the transpose weight matrix to move the error backword through the network, giving us some sort of hte measure of the error at the output of hte lth layer
+* Then take the Hadamard prodcut of the last step and the Hadamard prodcut of z at that layer passed into the activation function. This movers the error backwards through the activation function in layer l, giving us the error in the weighted input to layer l
+
+
+
+
+
+
+
+
 
 
 
