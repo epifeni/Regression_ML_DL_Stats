@@ -55,7 +55,7 @@
 * Cluster - break the population down into groups and sample a random selecton of groups, or *clusters*
 
 ## Central Limit Theorem
-* 95% of all sample means shold fall within 2 Standard Deviations of the population mean even if the population itself is not normally distributed
+* 95% of all sample means shold fall within 2 Standard Deviations of the population mean even if the population itself is not normally distributed <br>
 <img width="927" height="420" alt="image" src="https://github.com/user-attachments/assets/d22afed3-27c1-44a7-8e13-6ddf5f15b562" />
 
 # Standard Error  
@@ -70,7 +70,7 @@ Takes both the sample and population into consideration
 
 We can say that with a 95% **confidence level** that the **populaiton parameter** lies within a **confidence interval** of plus-or-minus 2 **Standard Errors** of the **sample statistic**
 * Standard Error describes how a sample statistic varies from the population parameter. It **does not** describe how individual values deviate within the statistic (this would just be the standard deviation of the sample)
-* We can say that the sample statistic (p-hat) is a **point estimator** of the population parameter P
+* We can say that the sample statistic (p-hat) is a **point estimator** of the population parameter P<br>
 <img width="757" height="429" alt="image" src="https://github.com/user-attachments/assets/8787fa23-0b98-4612-8e21-ef8958225be2" />
 
 # Hypothesis Testing  
@@ -87,16 +87,16 @@ The application of statistical methods to real-world questions
 * **alternative hypothesis should **not* have an equality (not = to, <, >)**
 
 ## Testing the Hypothesis
-* Assuming out null hypothesis is valid, if the probability of observing these results of the null hypothiesis (after recording the results) is very small (inside of 0.05 - **The Level of Significance [alpha]**), then we reject the null hypothesis\
-  * i.e. Given an assumption, the probability of a particular observed event is exceptionally small, then you can conclude that the assumption is probaby not correct\
-* If alpha = 0.05 and the alternative hypothesis has an alpha that is **less than* the null hypothesis, then the **left-tail** of the probability curve has an area of 0.05\
-<img width="343" height="221" alt="image" src="https://github.com/user-attachments/assets/b0cb61a3-b6cd-4d2f-bab7-b52c539e1a2f" />
-* If alpha = 0.05 and the alternative hypothesis has an alpha that is **more than* the null hypothesis, then the **right-tail** of the probability curve has an area of 0.05\
-<img width="290" height="228" alt="image" src="https://github.com/user-attachments/assets/d0c84b0f-8a6f-43d6-89af-7bed40201a8a" />
-* If alpha = 0.05 and the alternative hypothesis has an alpha that is **not equal to* the null hypothesis, then the two tales of the probability curve **share** an area of 0.05 (H1 not= null)\  
-<img width="539" height="60" alt="image" src="https://github.com/user-attachments/assets/00e6180e-2831-410a-8718-2526905cdb7a" /> 
-* These areas establish the **critical values** or Z-scores\  
-<img width="575" height="235" alt="image" src="https://github.com/user-attachments/assets/d8976ee0-c177-4563-b597-41a0d9967ecf" />  
+* Assuming out null hypothesis is valid, if the probability of observing these results of the null hypothiesis (after recording the results) is very small (inside of 0.05 - **The Level of Significance [alpha]**), then we reject the null hypothesis<br>
+  * i.e. Given an assumption, the probability of a particular observed event is exceptionally small, then you can conclude that the assumption is probaby not correct<br>
+* If alpha = 0.05 and the alternative hypothesis has an alpha that is **less than* the null hypothesis, then the **left-tail** of the probability curve has an area of 0.05<br>
+<img width="343" height="221" alt="image" src="https://github.com/user-attachments/assets/b0cb61a3-b6cd-4d2f-bab7-b52c539e1a2f" /><br>
+* If alpha = 0.05 and the alternative hypothesis has an alpha that is **more than* the null hypothesis, then the **right-tail** of the probability curve has an area of 0.05<br>
+<img width="290" height="228" alt="image" src="https://github.com/user-attachments/assets/d0c84b0f-8a6f-43d6-89af-7bed40201a8a" /><br>
+* If alpha = 0.05 and the alternative hypothesis has an alpha that is **not equal to* the null hypothesis, then the two tales of the probability curve **share** an area of 0.05 (H1 not= null)<br>  
+<img width="539" height="60" alt="image" src="https://github.com/user-attachments/assets/00e6180e-2831-410a-8718-2526905cdb7a" /><br> 
+* These areas establish the **critical values** or Z-scores <br>
+<img width="575" height="235" alt="image" src="https://github.com/user-attachments/assets/d8976ee0-c177-4563-b597-41a0d9967ecf" /><br>
 
 ## 2 Types of Tests - Test of Means and Test of Propotions
 * Each has it's own test statistic to calculate
@@ -104,10 +104,10 @@ The application of statistical methods to real-world questions
 * **Test of Propotion** - Looking at a percentage of the population does 'X'. Trying to extablish an hypothesis when dealing with a propotion of the population
 
 ### Calculating Test Statistics
-* When working with mean\
-<img width="624" height="134" alt="image" src="https://github.com/user-attachments/assets/151ab9c9-7959-4ba9-b8d8-54852c87a1f9" />
-* When working with populations\
-<img width="509" height="161" alt="image" src="https://github.com/user-attachments/assets/5eb77b53-157f-4094-b084-0ae4cab403fb" />
+* When working with mean<br>
+<img width="624" height="134" alt="image" src="https://github.com/user-attachments/assets/151ab9c9-7959-4ba9-b8d8-54852c87a1f9" /><br>
+* When working with populations<br>
+<img width="509" height="161" alt="image" src="https://github.com/user-attachments/assets/5eb77b53-157f-4094-b084-0ae4cab403fb" /><br>
 
 ## 2 Ways of Performing Hypothesis Tests  
 ### Traditional Test
@@ -119,10 +119,17 @@ The application of statistical methods to real-world questions
 1. State the null hypothesis
 2. State the alternative hypothesis
 3. Set a level of significance (alpha)
+<<<<<<< HEAD
 4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)\
 <img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" />
 5. Calculate the test statistic (using the Z formula)\
 <img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" />
+=======
+4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)<br>
+<img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" /><br>
+5. Calculate the test statistic (using the Z formula)<br>
+<img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" /><br>
+>>>>>>> 0f78a64d20740d4e22ca8c7bbf32a62f82dd1c0f
 6. Calculate Critical Value
    * Do a z-table lookup of the alpha value to get the z value
 7. Check if the value Rejects or Fail to Reject the null hypothesis
@@ -136,10 +143,17 @@ The application of statistical methods to real-world questions
 1. State the null hypothesis
 2. State the alternative hypothesis
 3. Set a level of significance (alpha)
+<<<<<<< HEAD
 4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)\
 <img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" />
 5. Calculate the test statistic (using the Z formula)\
 <img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" />
+=======
+4. Determine the test type (left tail,  right tail or two tail based on the null an alternative hypothesis)<br>
+<img width="550" height="134" alt="image" src="https://github.com/user-attachments/assets/62461180-91c7-4e11-8cec-ea0e343b8e7c" /><br>
+5. Calculate the test statistic (using the Z formula)<br>
+<img width="171" height="105" alt="image" src="https://github.com/user-attachments/assets/1046c2b4-346d-49b0-80de-5dd6e27eae4d" /><br>
+>>>>>>> 0f78a64d20740d4e22ca8c7bbf32a62f82dd1c0f
 6. P-Value
    * z-table lookup to get the p value
 7. Check if the value Rejects or Fail to Reject the null hypothesis
@@ -154,21 +168,48 @@ Used when you already know the truth that you are testing for wher you already k
 * Type 2 Error (False Negative) - **Failing to Reject** reject a null hypothesis that should have been rejected
     * Null hypothesis was that there was no fire. So you fail to pull the fire alarm when there was actually a fire 
 
+## Student's T-Distribuiton
+Uses when the population Standard Deviation is not known
+* Determines if there is a significant difference between two sets of data
+* When due to variance and outliers, it's not enough just compare mean values
+* T-test also considers sample variances
 
+### Types of Student's T-Test
+* One-sample t-test - Tests the null hypothesis that the populatin mean is equal to a specified value $\mu$ based on a sample mean $\bar{x}$
+*    * Check if the sample mean equals populaiton mean without knowing the Standard Deviation of the population
+t-statistic<br>
+<img width="473" height="304" alt="image" src="https://github.com/user-attachments/assets/74ca8d02-bb4f-4e38-b072-dc691bb38314" /><br>
 
+* Independent two-sample t-test - Tests the null hypothesis that two sample means $\bar{x1}$ and $\bar{x2}$ are equal
+     * Check if the mean test scores of two seperate samples of students have a statistically significant difference
+<img width="892" height="298" alt="image" src="https://github.com/user-attachments/assets/b141a927-e928-49be-9b46-ae9f5348fa27" /><br>
 
+t-statistic depends on 3 scenarios
+* Equal  sample size, equal variance
+* Unequal sample size, equal variance
+* Equal orunequal sample sizes, unequal variance (**Most Common - AKA Welch-Satterthwaite Formula**)
+<img width="659" height="224" alt="image" src="https://github.com/user-attachments/assets/2c341383-8ee0-46ef-9360-8a9355ddd95b" /><br>
+   * General formula when variences of the samples are close enough to being equal
+<img width="317" height="52" alt="image" src="https://github.com/user-attachments/assets/833a7b61-4acd-4fd3-b4a1-a2fb72e7adbd" /><br>
 
+* Dependent, paired-sample t-test - Used when samples are dependent
+     * One sample has been tested twice (repeated measurements)
+     * two sampels have been matched or paired
+     * Check if the same group of students have improved results on the test scores  before prep couse and after prep course
 
+t Vs z distribuiton\
+t distribution approaches the z distribution as the degrees of freedom increase - i.e. if the sample size is big enough, use the normal distribution (n = 30 is a standard cut-off point to switch over to a normal distribution)
+<img width="876" height="278" alt="image" src="https://github.com/user-attachments/assets/5af5b91f-6f45-4e09-b847-561fd854d828" /><br>
 
 
 # Machine Learning/Deep Learning Model Notes  
 
-[Machine Learning Cheat-Sheet](https://scikit-learn.org/stable/machine_learning_map.html)
+[Machine Learning Cheat-Sheet](https://scikit-learn.org/stable/machine_learning_map.html)<br>
 
 ## <u>Supervised Learning</u>  
 
-Machine learing process for supervised learining  
-<img width="951" height="302" alt="image" src="https://github.com/user-attachments/assets/04cd0896-5b56-42eb-9fec-0f3f77bc13eb" />
+Machine learing process for supervised learining<br>
+<img width="951" height="302" alt="image" src="https://github.com/user-attachments/assets/04cd0896-5b56-42eb-9fec-0f3f77bc13eb" /><br>
 
 ### Classification Error Performance Evaluation
 * Model tires to predict categorical values (i.e. dog/cat, spam/not-spam)
@@ -186,7 +227,7 @@ Machine learing process for supervised learining
    * Harmonic mean punishes extreme differences between precision and recall
 
 #### Confusion Matrix - Compares the predicted values to the true values
-<img width="851" height="400" alt="image" src="https://github.com/user-attachments/assets/4176ae46-8a37-45d7-ab33-c6eeb49f5f27" />  
+<img width="851" height="400" alt="image" src="https://github.com/user-attachments/assets/4176ae46-8a37-45d7-ab33-c6eeb49f5f27" /><br> 
 
 #### Correct Predictions
 * *True positive* - the person having the disease and the model correctly predicting that they have the disease
@@ -196,7 +237,7 @@ Machine learing process for supervised learining
 * *False negative* (Type 2 Error) - the person does have the disease but the model inaccuraetly predicts that they do not have the disease.
 
 #### Calculations
-<img width="815" height="432" alt="image" src="https://github.com/user-attachments/assets/4d6b1f79-2a40-4da2-a2fa-dcd2e461e457" />  
+<img width="815" height="432" alt="image" src="https://github.com/user-attachments/assets/4d6b1f79-2a40-4da2-a2fa-dcd2e461e457" /><br>
 
 ### Regression Error Performance Evaluation  
 * Model tries to predict continuous values
@@ -212,8 +253,8 @@ Machine learing process for supervised learining
   * Compare the Root Mean Squared Error to the mean values to get an idea of significance
 
 ## <u>Unsupervised Learning</u>  
-Machine learning process for unsupervised learning
-<img width="926" height="134" alt="image" src="https://github.com/user-attachments/assets/3919cd9e-2131-4259-b56c-3dc2ab515521" />
+Machine learning process for unsupervised learning<br>
+<img width="926" height="134" alt="image" src="https://github.com/user-attachments/assets/3919cd9e-2131-4259-b56c-3dc2ab515521" /><br>
 
 * There is no Test/Train split
   * So, train ad fit the model on all the data and afterwards, perform some sort of transformation on the data set such as Dimentionality Reduction
@@ -223,6 +264,140 @@ Machine learning process for unsupervised learning
   * Data points are assigned to a cluster based on the similarity to other points within that cluster
 * **Anomaly Detectection** - Attempts to detect outliers in a dataset (i.e. fraudulent transactions on a credit card)
 * **Dimentionality Reduction** - Reduce the number of features in a dataset
+
+# Deep Learning
+
+## Perceptron Model
+<img width="929" height="296" alt="image" src="https://github.com/user-attachments/assets/1fcfa38d-deaf-408a-9066-881d7c1dd5d9" /><br>
+1. if f(X) is a sum then, y = x1 + x2
+
+2. There is no way that this model can work, so we can add in adjustable weights to multiply against the inputs of x<br>
+<img width="935" height="250" alt="image" src="https://github.com/user-attachments/assets/5427b94b-69d5-4854-8ce8-0cb7116f72c6" /><br>
+Now y = x1w1 + x2w2<br>
+weight can be updated to affect the output y<br>
+
+3. In the case that the impt values are zero, we can add a bias term b to the input
+    * The way to think about the bias is that the multiplication of (x1 * w1) i.e. the input times its weights has to overcome the bias value in order to have an affect on the output of y
+<img width="946" height="278" alt="image" src="https://github.com/user-attachments/assets/cf78e8c9-81da-4e1a-8822-44f2084c1047" /><br>
+Now y = (x1w1 + b) + (x2w2 + b)<br>
+
+4. Inputs can be expanded out all the way to n number of inputs<br>
+<img width="924" height="308" alt="image" src="https://github.com/user-attachments/assets/61c26984-e0f2-4781-a154-c5f26208f342" /><br>
+
+5. This model can be expanded to have X be a **tensor** of information, where a tensor is an n-dimentional matrix<br>
+<img width="528" height="211" alt="image" src="https://github.com/user-attachments/assets/1c44b112-be48-40ae-b6b1-835bd21ddad1" /><br>
+
+6. This equation can be simplified by adding up all the biases into one bias labeled B<br>
+<img width="907" height="307" alt="image" src="https://github.com/user-attachments/assets/6356480c-6ab5-429f-a97e-3f95cb8fdb3e" /><br>
+
+ ## Neural Network - Multi-layer Perceptron(Neuron) Model
+ **Neural Network has been mathematically proven to be able to approximate any convex continuous function**
+ To build a network of perceptorns, connect layers of perceptrons <br/>
+
+ <img width="489" height="270" alt="image" src="https://github.com/user-attachments/assets/1d129c90-c3bb-4326-a8f5-827deaf53203" /> <br/>
+* 1st layer - input layer
+* last layer - output layer
+* all layers inbetween are hidden layers
+* **deep neural network** has 2 or more hidden layers<br/>
+
+<img width="776" height="244" alt="image" src="https://github.com/user-attachments/assets/637a373e-89c6-455f-addf-5eb654ecb003" /><br/>
+
+## Activation Functions
+For input x - there is a weight and a bias (x*w + b)<br/>
+z = x*w + b at the first layer where x is the raw features <br/>
+from the 2nd layer onwards: z = a*w + b where a is the input from the previous neuron
+
+* w - the weight/strength that should be given to the incoming input (how important is the input?) - if the weight is large, the value of that input is likely very important
+* b - off-set value (threshold value for the imput and the weight to have any effect). So if b = -10, then the effect of x*w will not start to overcome the bias until their product surpasses 10
+* z can then be passed through some **Activation Function** to limit its value
+
+### Types of Activation Functions
+Continuous Regression
+* Rectified Linear Unit (ReLU) - output less than 0 is treated as 0. If greater than 0, output the z value. Good use case for vanishing gradient (This is usually the default activation function due to its good performance)
+  
+Binary Classification
+* Step function - outputs 0 or 1 
+* Sigmoid Function (Logistic Regression) - outputs from 0 to 1
+* Hyperbolic Tangent: tanh(z) - outputs -1 to 1
+
+
+Multi-class Classification
+* Non-Exclusive Classes - A data pointcan have multiple classes.categories assigned to it
+    * A phot can have multiple tags - have 1 output node per class
+    * Activation functions:
+       * Sigmoid function for each classification
+       * Softmax function for only assigning 1 classification
+* Mutually Exclusive Classes - Only one class per dat apoint
+    * Photo can be greayscale or full-colour <br/>
+
+<img width="748" height="333" alt="image" src="https://github.com/user-attachments/assets/935236e9-228f-4492-ac6b-39025b875e0f" /><br/>
+
+## Cost Functions (loss/error functions) and Gradient Descent 
+Last output layer $\hat{y}$ <br/>
+**Evaluating how far off our prediction is**
+* during the training/fitting process - take the estimated output of te network and compare them to the ral values of the label
+* cost function - how far off you are from the true value based off your prediction (should be an average)
+    * y - represents the true value
+    * a - represents the neuron's prediction
+* w*x +b = z --> z passes into activation function $\theta$(z) = a
+* Use gradient desent to solve for the minimum values of each w (using a stochastic process)
+    * Step size to minimise w is the **learning rate**
+ 
+* adaptive gradient descent - step size gets smaller as the gradient gets closer to 0
+*    * Popular optimiser is 'Adam'
+ 
+When dealing with N-dimentional vectors (tensors), the notation changes from **derivative** to **gradient** So we calcualte the gradient of the cost functions with respect to all the weights<br/>
+
+For classificaton problems, we generally use the **cross entropy** loss function - This assumes that the model predicts a probability distribution p(y=i) for each class i=1,2,...,C<br/> 
+
+**For perfroming classification, especially multi-class classification that's greater than binary classification (greater than 2), we will us coross entorpy to be our cost function**<br/> 
+
+## Backpropagation
+[documentation](http://neuralnetworksanddeeplearning.com/chap2.html)<br/>
+Moving backwords through a network to update the weights and the biases<br/>
+
+**Way of finding out how the cost function results change with respect to the weights in the network so we can update teh weights and to minimise the cost function**<br/>
+
+**We want to understand how sensitive the cost function is to changes in w**<br/>
+
+The learning process for a network<br/>
+1. Using input x, set the activation function a for the input layer
+* z = wx+b
+* a=$\theta$(z)
+* This resulting a then feeds into the next layer (and so on)
+2. for each layer we are computing the z and a:
+  * z^L^ = w^L^a^L-1^+b^L^
+  * a^L = $\theta$(z^L^)
+3. Compute error vector<br/>
+<img width="848" height="310" alt="image" src="https://github.com/user-attachments/assets/69283111-81bb-4da3-9327-3673b459df73" /><br/>
+<img width="344" height="61" alt="image" src="https://github.com/user-attachments/assets/a724b912-e2b4-433b-860c-ea057b3da9ad" /><br/>
+4. Backpropogate the error
+<img width="862" height="314" alt="image" src="https://github.com/user-attachments/assets/041e5c94-20af-4978-99e8-751290153670" /><br/>
+<img width="849" height="320" alt="image" src="https://github.com/user-attachments/assets/e640dc35-861d-4c49-b03a-23c3d5a59a6c" /><br/>
+* Apply the transpose weight matrix to move the error backword through the network, giving us some sort of hte measure of the error at the output of hte lth layer
+* Then take the Hadamard prodcut of the last step and the Hadamard prodcut of z at that layer passed into the activation function. This movers the error backwards through the activation function in layer l, giving us the error in the weighted input to layer l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
